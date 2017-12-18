@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF9F33E11FE260FF00D74308 /* AccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9F33E01FE260FF00D74308 /* AccountTableViewCell.m */; };
 		CE9031781FDF506000250BBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9031771FDF506000250BBF /* AppDelegate.m */; };
 		CE90317B1FDF506000250BBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90317A1FDF506000250BBF /* ViewController.m */; };
 		CE90317E1FDF506000250BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE90317C1FDF506000250BBF /* Main.storyboard */; };
 		CE9031801FDF506000250BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90317F1FDF506000250BBF /* Assets.xcassets */; };
 		CE9031831FDF506000250BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9031811FDF506000250BBF /* LaunchScreen.storyboard */; };
 		CE9031861FDF506000250BBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9031851FDF506000250BBF /* main.m */; };
+		CEB816011FE2046400BC8510 /* AccountsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB816001FE2046400BC8510 /* AccountsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF9F33DF1FE260FF00D74308 /* AccountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewCell.h; sourceTree = "<group>"; };
+		AF9F33E01FE260FF00D74308 /* AccountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewCell.m; sourceTree = "<group>"; };
 		CE9031731FDF506000250BBF /* introTOJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = introTOJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9031761FDF506000250BBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE9031771FDF506000250BBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		CE9031821FDF506000250BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9031841FDF506000250BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9031851FDF506000250BBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB815FF1FE2046400BC8510 /* AccountsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountsTableViewController.h; sourceTree = "<group>"; };
+		CEB816001FE2046400BC8510 /* AccountsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				CE9031771FDF506000250BBF /* AppDelegate.m */,
 				CE9031791FDF506000250BBF /* ViewController.h */,
 				CE90317A1FDF506000250BBF /* ViewController.m */,
+				AF9F33DF1FE260FF00D74308 /* AccountTableViewCell.h */,
+				AF9F33E01FE260FF00D74308 /* AccountTableViewCell.m */,
+				CEB815FF1FE2046400BC8510 /* AccountsTableViewController.h */,
+				CEB816001FE2046400BC8510 /* AccountsTableViewController.m */,
 				CE90317C1FDF506000250BBF /* Main.storyboard */,
 				CE90317F1FDF506000250BBF /* Assets.xcassets */,
 				CE9031811FDF506000250BBF /* LaunchScreen.storyboard */,
@@ -143,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE90317B1FDF506000250BBF /* ViewController.m in Sources */,
+				AF9F33E11FE260FF00D74308 /* AccountTableViewCell.m in Sources */,
 				CE9031861FDF506000250BBF /* main.m in Sources */,
 				CE9031781FDF506000250BBF /* AppDelegate.m in Sources */,
+				CEB816011FE2046400BC8510 /* AccountsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
